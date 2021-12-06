@@ -1,7 +1,6 @@
-from pylons import config
-
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
+config = toolkit.config
 
 
 class OzwilloRoutesPlugin(plugins.SingletonPlugin):
